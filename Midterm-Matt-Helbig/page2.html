@@ -1,0 +1,157 @@
+
+
+<html>
+
+<head>
+
+<!---   
+ICS392 Arakawa
+Time:l0:l0
+Date:5.7.2013
+NAME:Matt Helbig
+--->
+
+<title>Matt Helbig - ICS 392 Midterm Page 2</title>
+
+<link rel="stylesheet" href="format.css">
+
+</head>
+
+
+<body>
+
+<h1><a href="page1.htm">Matt Helbig</a></h1>
+
+</br>
+
+<h2>
+Hi There. This page contains a whole bunch of stuff that can put you to sleep.
+</h2>
+
+<h3>T-carrier system</h3>
+
+<p>
+The T-carrier system, introduced by the Bell System in the U.S. in the 1960s, was the first successful system that supported digitized voice transmission. The original transmission rate (1.544 Mbps) in the T-1 line is in common use today in Internet service provider (ISP) connections to the Internet. Another level, the T-3 line, providing 44.736 Mbps, is also commonly used by Internet service providers. Another commonly installed service is a fractional T-1, which is the rental of some portion of the 24 channels in a T-1 line, with the other channels going unused. 
+</p>
+<p>
+The T-carrier system is entirely digital, using pulse code modulation and time-division multiplexing. The system uses four wires and provides duplex capability (two wires for receiving and two for sending at the same time). The T-1 digital stream consists of 24 64-Kbps channels that are multiplexed. (The standardized 64 Kbps channel is based on the bandwidth required for a voice conversation.) The four wires were originally a pair of twisted pair copper wires, but can now also include coaxial cable, optical fiber, digital microwave, and other media. A number of variations on the number and use of channels are possible. 
+</p>
+<p>
+In the T-1 system, voice signals are sampled 8,000 times a second and each sample is digitized into an 8-bit word. With 24 channels being digitized at the same time, a 192-bit frame (24 channels each with an 8-bit word) is thus being transmitted 8,000 times a second. Each frame is separated from the next by a single bit, making a 193-bit block. The 192 bit frame multiplied by 8,000 and the additional 8,000 framing bits make up the T-1's 1.544 Mbps data rate. The signaling bits are the least significant bits in each frame.
+</p>
+
+
+
+<h3>PCM (pulse code modulation)</h3>
+
+<p>
+PCM (pulse code modulation) is a digital scheme for transmitting analog data. The signals in PCM are binary; that is, there are only two possible states, represented by logic 1 (high) and logic 0 (low). This is true no matter how complex the analog waveform happens to be. Using PCM, it is possible to digitize all forms of analog data, including full-motion video, voices, music, telemetry, and virtual reality (VR).
+</p>
+<p>
+To obtain PCM from an analog waveform at the source (transmitter end) of a communications circuit, the analog signal amplitude is sampled (measured) at regular time intervals. The sampling rate, or number of samples per second, is several times the maximum frequency of the analog waveform in cycles per second or hertz. The instantaneous amplitude of the analog signal at each sampling is rounded off to the nearest of several specific, predetermined levels. This process is called quantization. The number of levels is always a power of 2 -- for example, 8, 16, 32, or 64. These numbers can be represented by three, four, five, or six binary digits (bits) respectively. The output of a pulse code modulator is thus a series of binary numbers, each represented by some power of 2 bits.
+</p>
+<p>
+At the destination (receiver end) of the communications circuit, a pulse code demodulator converts the binary numbers back into pulses having the same quantum levels as those in the modulator. These pulses are further processed to restore the original analog waveform.
+</p>
+<h3>Time-division multiplexing</h3>
+<p>
+Time-division multiplexing (TDM) is a method of putting multiple data streams in a single signal by separating the signal into many segments, each having a very short duration. Each individual data stream is reassembled at the receiving end based on the timing. 
+</p>
+<p>
+The circuit that combines signals at the source (transmitting) end of a communications link is known as a multiplexer. It accepts the input from each individual end user, breaks each signal into segments, and assigns the segments to the composite signal in a rotating, repeating sequence. The composite signal thus contains data from multiple senders. At the other end of the long-distance cable, the individual signals are separated out by means of a circuit called a demultiplexer, and routed to the proper end users. A two-way communications circuit requires a multiplexer/demultiplexer at each end of the long-distance, high-bandwidth cable.
+</p>
+<p>
+If many signals must be sent along a single long-distance line, careful engineering is required to ensure that the system will perform properly. An asset of TDM is its flexibility. The scheme allows for variation in the number of signals being sent along the line, and constantly adjusts the time intervals to make optimum use of the available bandwidth. The Internet is a classic example of a communications network in which the volume of traffic can change drastically from hour to hour. In some systems, a different scheme, known as frequency-division multiplexing (FDM), is preferred.
+</p>
+<p>
+ANSI/EIA (American National Standards Institute/Electronic Industries Association) Standard 568 is one of several standards that specify "categories" (the singular is commonly referred to as "CAT") of twisted pair cabling systems (wires, junctions, and connectors) in terms of the data rates that they can sustain. The specifications describe the cable material as well as the types of connectors and junction blocks to be used in order to conform to a category. These categories are: 
+
+While longer connections for Gigabit Ethernet use optical fiber, the goal is to leverage the CAT 5 twisted-pair wiring most organizations already have in place for connections out to the desktop. (Four pairs of twisted pair are used.) 
+</p>
+<p>
+The two most popular specifications are CAT 3 and CAT 5. While the two cables may look identical, CAT 3 is tested to a lower set of specifications and can cause transmission errors if pushed to faster speeds. CAT 3 cabling is near-end crosstalk-certified for only a 16 MHz signal, while CAT 5 cable must pass a 100 MHz test. 
+</p>
+<p>
+The CAT 6 specification was not yet formally approved by the EIA as of March, 2001, although products are being offered that conform to a proposed specification. A CAT 7 specification is reportedly being considered.
+</p>
+
+<h3>Bridge</h3>
+<p>
+In telecommunication networks, a bridge is a product that connects a local area network (LAN) to another local area network that uses the same protocol (for example, Ethernet or token ring). You can envision a bridge as being a device that decides whether a message from you to someone else is going to the local area network in your building or to someone on the local area network in the building across the street. A bridge examines each message on a LAN, "passing" those known to be within the same LAN, and forwarding those known to be on the other interconnected LAN (or LANs).
+</p>
+<p>
+In bridging networks, computer or node addresses have no specific relationship to location. For this reason, messages are sent out to every address on the network and accepted only by the intended destination node. Bridges learn which addresses are on which network and develop a learning table so that subsequent messages can be forwarded to the right network. 
+</p>
+<p>
+Bridging networks are generally always interconnected local area networks since broadcasting every message to all possible destinations would flood a larger network with unnecessary traffic. For this reason, router networks such as the Internet use a scheme that assigns addresses to nodes so that a message or packet can be forwarded only in one general direction rather than forwarded in all directions. 
+</p>
+<p>
+A bridge works at the data-link (physical network) level of a network, copying a data frame from one network to the next network along the communications path. 
+</p>
+
+<!-- #### THIS IS the LINK GOES (below on the word router) ##### -->
+
+<h3 >
+
+<a href="page1.htm">Router</a>
+
+</h3> 
+
+<p>
+On the Internet, a router is a device or, in some cases, software in a computer, that determines the next network point to which a packet should be forwarded toward its destination. The router is connected to at least two networks and decides which way to send each information packet based on its current understanding of the state of the networks it is connected to. A router is located at any gateway (where one network meets another), including each Internet point-of-presence. A router is often included as part of a network switch. 
+</p>
+<p>
+A router may create or maintain a table of the available routes and their conditions and use this information along with distance and cost algorithms to determine the best route for a given packet. Typically, a packet may travel through a number of network points with routers before arriving at its destination. Routing is a function associated with the Network layer (layer 3) in the standard model of network programming, the Open Systems Interconnection (OSI) model. A layer-3 switch is a switch that can perform routing functions. 
+</p>
+<p>
+An edge router is a router that interfaces with an asynchronous transfer mode (ATM) network. A brouter is a network bridge combined with a router.
+</p>
+
+<h3>Gateway</h3>
+<p>
+A gateway is a network point that acts as an entrance to another network. On the Internet, a node or stopping point can be either a gateway node or a host (end-point) node. Both the computers of Internet users and the computers that serve pages to users are host nodes. The computers that control traffic within your company's network or at your local Internet service provider (ISP) are gateway nodes. 
+</p>
+<p>
+In the network for an enterprise, a computer server acting as a gateway node is often also acting as a proxy server and a firewall server. A gateway is often associated with both a router, which knows where to direct a given packet of data that arrives at the gateway, and a switch, which furnishes the actual path in and out of the gateway for a given packet.
+</p>
+
+<h3>Hub</h3>
+
+<p>
+In general, a hub is the central part of a wheel where the spokes come together. The term is familiar to frequent fliers who travel through airport "hubs" to make connecting flights from one point to another. In data communications, a hub is a place of convergence where data arrives from one or more directions and is forwarded out in one or more other directions. A hub usually includes a switch of some kind. (And a product that is called a "switch" could usually be considered a hub as well.) The distinction seems to be that the hub is the place where data comes together and the switch is what determines how and where data is forwarded from the place where data comes together. Regarded in its switching aspects, a hub can also include a router. 
+</p>
+<p>
+1) In describing network topologies, a hub topology consists of a backbone (main circuit) to which a number of outgoing lines can be attached ("dropped"), each providing one or more connection port for device to attach to. For Internet users not connected to a local area network, this is the general topology used by your access provider. Other common network topologies are the bus network and the ring network. (Either of these could possibly feed into a hub network, using a bridge.) 
+
+
+2) As a network product, a hub may include a group of modem cards for dial-in users, a gateway card for connections to a local area network (for example, an Ethernet or a token ring), and a connection to a line (the main line in this example).
+</p>
+
+<h3>Switch</h3>
+
+<p>
+In telecommunications, a switch is a network device that selects a path or circuit for sending a unit of data to its next destination. A switch may also include the function of the router, a device or program that can determine the route and specifically what adjacent network point the data should be sent to. In general, a switch is a simpler and faster mechanism than a router, which requires knowledge about the network and how to determine the route. 
+</p>
+<p>
+Relative to the layered Open Systems Interconnection (OSI) communication model, a switch is usually associated with layer 2, the Data-Link layer. However, some newer switches also perform the routing functions of layer 3, the Network layer. Layer 3 switches are also sometimes called IP switches. 
+</p>
+<p>
+On larger networks, the trip from one switch point to another in the network is called a hop. The time a switch takes to figure out where to forward a data unit is called its latency. The price paid for having the flexibility that switches provide in a network is this latency. Switches are found at the backbone and gateway levels of a network where one network connects with another and at the subnetwork level where data is being forwarded close to its destination or origin. The former are often known as core switches and the latter as desktop switches. 
+</p>
+<p>
+In the simplest networks, a switch is not required for messages that are sent and received within the network. For example, a local area network may be organized in a token ring or bus arrangement in which each posible destination inspects each message and reads any message with its address. 
+</p>
+
+<h3>Circuit-Switching version Packet-Switching</h3>
+<p>
+A network's paths can be used exclusively for a certain duration by two or more parties and then switched for use to another set of parties. This type of "switching" is known as circuit-switching and is really a dedicated and continuously connected path for its duration. Today, an ordinary voice phone call generaly uses circuit-switching. 
+</p>
+<p>
+Most data today is sent, using digital signals, over networks that use packet-switching. Using packet-switching, all network users can share the same paths at the same time and the particular route a data unit travels can be varied as conditions change. In packet-switching, a message is divided into packets, which are units of a certain number of bytes. The network addresses of the sender and of the destination are added to the packet. Each network point looks at the packet to see where to send it next. Packets in the same message may travel different routes and may not arrive in the same order that they were sent. At the destination, the packets in a message are collected and reassembled into the original memage.
+</p></br>
+
+
+
+</body>
+
+</html>
