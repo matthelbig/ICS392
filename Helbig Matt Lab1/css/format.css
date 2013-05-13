@@ -1,0 +1,29 @@
+h1,h2 {font-family: Arial, Helvetica, sans-serif;}
+
+h1 {font-size: 30px;
+	color: aqua;
+	text-align: center;}
+
+img { -webkit-border-radius: 500px;
+     -moz-border-radius: 500px;
+          border-radius: 500px;
+      }
+
+p {font-family: Impact;
+	color: green;
+	font-size: 14pt;}
+
+ol,li,a {font-size: 20px;
+color: blue;}
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	padding-bottom: 20px;
+}
+
