@@ -6,7 +6,7 @@ body {
   background: #162126;
 }
 
-.section, .section2, .section3{
+.section, .section2, .section3, .section4, .section5 {
 	background: #162126;
 	width: 100%;
 	height: 100%;
@@ -15,9 +15,23 @@ body {
 
 .section {background: #162126;}	
 
-.section2 {background: #68c1ab;}
+.section2 {background: #68c1ab; }
 
 .section3 {background: #ec6b56;}
+
+.section4 {background: url(web.jpg) no-repeat center center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  height: 440px;}
+
+  .section5 {background: url(office.jpg) no-repeat center center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  height: 440px;}
 
 
 .container12 {
@@ -140,6 +154,11 @@ table.hero {
 	padding-top: 40px;
 }
 
+table.service {
+	width: 750px;
+	margin-top: 0;
+}
+
 table.projects {
 	width: 940px;
 	padding-top: 40px;
@@ -150,6 +169,16 @@ table.details {
 	text-align: left;
 	margin-bottom: 0;
 }
+
+table.donate {
+	width: 500px;
+	text-align: left;
+	padding: 15px;
+	background: #50565c;
+	margin-bottom: 0;
+	margin-top: 0;}
+
+p.donate {color: #2e3236 !important;}
 
 img.circle {
 	width: 200px;
@@ -162,3 +191,9 @@ img.circle {
 .footer {font-size: 16px;}
 .heart {color:#162126;
 		font-weight: 700;}
+
+input {font-size: 20px;
+	line-height: 1.45;}
+
+form {margin-right: auto;
+  margin-left: auto;}
