@@ -6,7 +6,7 @@ body {
   background: #162126;
 }
 
-.section, .section2, .section3, .section4, .section5 {
+.section, .section2, .section3, .section4, .section5, .section6 {
 	background: #162126;
 	width: 100%;
 	height: 100%;
@@ -19,7 +19,9 @@ body {
 
 .section3 {background: #ec6b56;}
 
-.section4 {background: url(web.jpg) no-repeat center center;
+.section6 {background: #95A5A6;}
+
+.section4 {background: url(office-2.jpg) no-repeat center center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -35,7 +37,7 @@ body {
 
 
 .container12 {
- padding: 0 150px;
+ padding: 0 40px;
   width: 960px;
   margin-right: auto;
   margin-left: auto;
@@ -148,6 +150,17 @@ a.section3-btn {
 	border: none;
 	border-radius: 6px;
 	text-decoration: none;}
+
+a.section6-btn {
+	background: #7F8C8D;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+	margin: 40px 0px;
+	border: none;
+	border-radius: 6px;
+	text-decoration: none;
+}
 
 table.hero {
 	width: 750px;
